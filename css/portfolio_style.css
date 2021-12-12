@@ -13,10 +13,14 @@
   --header-link-color: #757575;
   --accent-color: #2196f3;
 }
-.p a h1 h2 h3 h4 h5 {
+p, a, h1, h2, h3, h4, h5 {
   margin: 0;
 }
-.ul {
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
   margin: 0;
   padding: 0;
 }
@@ -59,7 +63,9 @@ body {
 .header-list {
   display: flex;
   margin: 0px;
-}
+  margin-left: 93px;
+  padding: 0px;
+  }
 
 .logo-first {
   font-family: Raleway;
@@ -85,11 +91,10 @@ body {
   padding-bottom: 25px;
 }
 
-.header-item {
-  margin-right: 50px;
-  padding-top: 32px;
+.header-link-list {
+    padding-top: 32px;
   padding-bottom: 32px;
-
+  margin-left: 50px;
 }
 
 .header-item-text {
@@ -142,17 +147,21 @@ body {
 .header-link-list:focus {
   color: var(--accent-color);
 }
-
+.header-line {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
 /*--hero--*/
 .hero-container {
   display: flex;
+  margin-top: 94px;
 }
 .hero-list-button {
     display: flex;
-  margin-top: 94px;
-  padding: 0px;
-  margin-left: 293px;
+    padding: 0px;
+  justify-content: center;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button-item {
   font-family: Roboto;
@@ -187,17 +196,18 @@ body {
 }
 .about-item {
   margin-right: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   width: 370px;
-  height: 404px;
-  background-color: #ffffff;
+    background-color: #ffffff;
   
   }
   .about-item-wrap{
     position: relative;
     overflow: hidden; 
   }
-
+.about-box{
+  
+}
   .about-text{
     position: absolute;
     top: 0px;
@@ -252,10 +262,12 @@ body {
   background-color: #2f303a;
 }
 .contacs-container {
+    display: flex;
+}
+.footer-contacs{
   padding-bottom: 60px;
   padding-top: 60px;
-  display: flex;
-  }
+}
 .contacs-text {
   font-family: Raleway;
   font-style: normal;
@@ -264,21 +276,20 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
-  margin-left: 0px;
+  
 }
 .contacs-list{
-  padding: 0px;
+  margin-top: 20px;
 }
-
 .contacs-item {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.19;
+  line-height: 1.72;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
-  
+  margin-bottom: 9px;
 }
 
 .contacs-item-link {
@@ -286,8 +297,8 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
-  
+  line-height: 1.72;
+
   color: rgba(255, 255, 255, 0.6);
 }
 /* alignment */
@@ -296,8 +307,8 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
- 
+  line-height: 1.72;
+
   color: #ffffff;
 }
 .connect{
