@@ -91,10 +91,13 @@ body {
   padding-bottom: 25px;
 }
 
-.header-link-list {
+.header-item {
     padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 50px;
+}
+.header-item:first-child{
+  margin-left: 0px;
 }
 
 .header-item-text {
@@ -225,6 +228,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-color);
+  padding-bottom: 10px;
 }
 .about-icon-item + .about-icon-item {
   margin-left: 10px;
@@ -334,7 +338,7 @@ body {
   margin-bottom: 16px;
 }
 .command-box{
-margin: 30px 0px;
+padding: 30px 0px;
 }
 .command-social-item + .command-social-item {
   margin-left: 10px;
@@ -428,13 +432,15 @@ margin: 30px 0px;
 /*---CONTACS--*/
 .contacs {
   background-color: #2f303a;
+  padding-bottom: 60px;
+  padding-top: 60px;
+
 }
 .contacs-container {
     display: flex;
 }
 .footer-contacs{
-  padding-bottom: 60px;
-  padding-top: 60px;
+  
 }
 .contacs-text {
   font-family: Raleway;

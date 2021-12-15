@@ -91,10 +91,13 @@ body {
   padding-bottom: 25px;
 }
 
-.header-link-list {
+.header-item {
     padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 50px;
+}
+.header-item:first-child{
+  margin-left: 0px;
 }
 
 .header-item-text {
@@ -152,8 +155,7 @@ body {
 }
 /*--hero--*/
 .hero-container {
-  display: flex;
-  margin-top: 94px;
+ 
 }
 .hero-list-button {
     display: flex;
@@ -171,7 +173,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
-  min-width: 73px;
+  padding: 0px 22px;
   height: 38px;
   border-radius: 4px;
   color: var(--header-text-color);
@@ -186,7 +188,10 @@ body {
   background-color: var(--second-button-color);
 }
 /*--about--*/
-.about-container {
+.main-container {
+    padding-top: 94px;
+  padding-bottom: 94px;
+  width: 1200px;
 }
 
 .about-list {
@@ -195,17 +200,17 @@ body {
   padding: 0px;
 }
 .about-item {
-  margin-right: 30px;
-  margin-bottom: 30px;
-  width: 370px;
+    width: 370px;
     background-color: #ffffff;
-  
-  }
+    }
   .about-item-wrap{
     position: relative;
     overflow: hidden; 
   }
-
+.about-box{
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
   .about-text{
     position: absolute;
     top: 0px;
