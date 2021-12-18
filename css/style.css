@@ -25,10 +25,7 @@ li {
   padding: 0;
 }
 
-.container-body {
-  width: 1600px;
-  margin: auto;
-}
+
 body {
   font-family: "Roboto", Roboto;
 }
@@ -166,6 +163,7 @@ body {
 }
 
 .hero-container {
+  width: 1600px;
   display: float;
   align-items: center;
   padding-top: 200px;
@@ -335,7 +333,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 16px;
+  
 }
 .command-box{
 padding: 30px 0px;
@@ -465,6 +463,9 @@ padding: 30px 0px;
   color: var(--third-text-color);
   margin-bottom: 9px;
 }
+.contacs-item:last-child{
+  margin: 0px;
+}
 
 .contacs-item-link {
   font-family: Roboto;
@@ -475,6 +476,7 @@ padding: 30px 0px;
 
   color: rgba(255, 255, 255, 0.6);
 }
+
 /* alignment */
 .contacs-item-address {
   font-family: Roboto;
