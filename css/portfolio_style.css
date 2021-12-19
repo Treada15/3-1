@@ -155,6 +155,10 @@ body {
 .hero-container {
   width: 1200px;
 }
+.hero{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .hero-list-button {
     display: flex;
     padding: 0px;
@@ -162,7 +166,7 @@ body {
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 94px;
+  
 }
 .hero-button-item {
   font-family: Roboto;
@@ -197,13 +201,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-  padding-bottom: 94px;
+  
 }
 .about-item {
     width: 370px;
     background-color: #ffffff;
     margin-right: 30px;
-    box-shadow: 1px 1px 1px 1px rgba(238, 238, 238, 1);
+    border: solid 1px rgba(238, 238, 238, 1);
     margin-bottom: 30px;
     }
 
@@ -267,6 +271,7 @@ body {
 /*---CONTACS--*/
 .contacs {
   background-color: #2f303a;
+  
 }
 .contacs-container {
     display: flex;
